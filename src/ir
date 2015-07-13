@@ -368,5 +368,8 @@ xkb_symbols "glk"
     key <AB08> {	[  	U0648,	U03E		,comma							]	}; // و U0648			// >
     key <AB09> {	[	  U02e,	  U03C		,apostrophe					]	}; // . U02e			// <
     key <AB10> {	[	  slash,	U061f		,question						]	}; // / U02f			// ؟
+
+    include "nbsp(zwnj2nb3)"
+    include "level3(ralt_switch)"
 };
 

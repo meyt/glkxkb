@@ -13,6 +13,7 @@ https://glk.wikipedia.org/wiki/کاربر:Varg/پؤرؤژهٰ‌ن/گیلکی_ک
 
 	$ sudo ./install.sh
 
+پس از نصب براي اعمال تغييرات نياز به ريستارت ميباشد.
 
 
 
