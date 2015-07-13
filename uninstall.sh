@@ -1,6 +1,5 @@
 #!/bin/sh
-SCRIPT=`realpath $0`
-SCRIPTPATH=`dirname $SCRIPT`
+
 echo "Remove changes..."
 rm "/usr/share/X11/xkb/symbols/ir" 
 rm "/usr/share/X11/xkb/rules/base.xml" 

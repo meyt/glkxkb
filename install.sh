@@ -1,5 +1,5 @@
 #!/bin/sh
-SCRIPT=`realpath $0`
+SCRIPT=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)/`basename "${BASH_SOURCE[0]}"`
 SCRIPTPATH=`dirname $SCRIPT`
 echo "Create snapshot..."
 mv "/usr/share/X11/xkb/symbols/ir" "/usr/share/X11/xkb/ir.bk" 
