@@ -309,65 +309,64 @@ xkb_symbols "ave"
 
 ////////////////////////////////////////
 // Gilaki layout,
-// Based on gilaki keyboard layout : https://glk.wikipedia.org/wiki/کاربر:Varg/پؤرؤژهٰ‌ن/گیلکی_کیبؤرد
-// Maintainer: v6rg / <v6rg@v6rg.com> / http://v6rg.com
-// Author: Mahdi Ghane.g / <ghg@junglesofts.com> / junglesoft.com
+// Maintainer: Jangal / <info@Jangal.co> / https://Jangal.co
+// Author: Mahdi Ghane.g / <ghg@Jangal.co> / https://Jangal.co
 //
 partial alphanumeric_keys
 xkb_symbols "glk"
 {
     name[Group1] = "Gilaki";
-    key <TLDE> {	[	  U02c7,	U065a				,asciitilde			]	}; // ˇ U02c7
-    key <BKSL> {	[	  U0623,	bar					,0x1002010			]	}; // أ U0623
+    key <TLDE> { [ U065a,	U02c7		,asciitilde		] }; // ٚ 		// ˇ
+    key <BKSL> { [ U0623,	U0670		,0x1002010		] }; // أ		// ٰ  
 
-    key <AE01> {	[	  U06f1,	exclam			,grave 					]	}; // ۱ U06f1
-    key <AE02> {	[	  U06f2,	at					,at							]	}; // ۲ U06f2
-    key <AE03> {	[	  U06f3,	numbersign	,numbersign			]	}; // ۳ U06f3
-    key <AE04> {	[	  U06f4,	U07e				,dollar					]	}; // ۴ U06f4
-    key <AE05> {	[	  U06f5,	U066a				,percent				]	}; // ۵ U06f5
-    key <AE06> {	[	  U06f6,	U05e				,asciicircum		]	}; // ۶ U06f6
-    key <AE07> {	[	  U06f7,	U060c				,ampersand			]	}; // ۷ U06f7
-    key <AE08> {	[	  U06f8,	U02a				,asterisk				]	}; // ۸ U06f8
-    key <AE09> {	[	  U06f9,	U029				,parenleft			]	}; // ۹ U06f9
-    key <AE10> {	[	  U06f0,	U028				,parenright			]	}; // ۰ U06f0
-    key <AE11> {	[	  U02d,		U0640				,underscore			]	}; // - U02d
-    key <AE12> {	[	  U03d,		plus												]	}; // = U03d
+    key <AE01> { [ U06f1,	exclam		,grave 			] }; // ۱		// !
+    key <AE02> { [ U06f2,	at		,at			] }; // ۲
+    key <AE03> { [ U06f3,	numbersign	,numbersign		] }; // ۳
+    key <AE04> { [ U06f4,	Ufdfc		,VoidSymbol		] }; // ۴		// ﷼
+    key <AE05> { [ U06f5,	U066a		,VoidSymbol		] }; // ۵		// ٪
+    key <AE06> { [ U06f6,	multiply	,asciicircum		] }; // ۶
+    key <AE07> { [ U06f7,	U060c		,ampersand		] }; // ۷
+    key <AE08> { [ U06f8,	U002a		,asterisk		] }; // ۸		// *
+    key <AE09> { [ U06f9,	U029		,parenleft		] }; // ۹	
+    key <AE10> { [ U06f0,	U028		,parenright		] }; // ۰
+    key <AE11> { [ U02d,	U0640		,underscore		] }; // -
+    key <AE12> { [ U03d,	plus					] }; // =
 
-    key <AD01> {	[	  U0636,	U0643 	,degree							]	}; // ض U0636			// ك
-    key <AD02> {	[	  U0635,	U0629		,VoidSymbol					]	}; // ص U0635			// ة
-    key <AD03> {	[	  U0626,	U062B		,0x13a4							]	}; // ئ U0626			// ث
-    key <AD04> {	[	  U0642,	U064B		,VoidSymbol					]	}; // ق U0642			// ً  
-    key <AD05> {	[	  U0641,	U020		,VoidSymbol					]	}; // ف U0641			//  
-    key <AD06> {	[	  U063a,	U0B0		,VoidSymbol					]	}; // غ U063a			// °
-    key <AD07> {	[	  U0639,	U0d7		,VoidSymbol					]	}; // ع U0639			// ×
-    key <AD08> {	[	  U0647,	U0f7		,0x100202d					]	}; // ه U0647			// ÷
-    key <AD09> {	[	  U062e,	U05d		,0x100202e					]	}; // خ U062e			// ]
-    key <AD10> {	[	  U062d,	U05b		,0x100202c					]	}; // ح U062d			// [
-    key <AD11> {	[	  U062c,	U07d		,0x100202a					]	}; // ج U062c			// }
-    key <AD12> {	[	  U0686,	U07b		,0x100202b					]	}; // چ U0686			// {
+    key <AD01> { [ U0636,	U0643 		,degree			] }; // ض		// ك
+    key <AD02> { [ U0635,	U0629		,VoidSymbol		] }; // ص		// ة
+    key <AD03> { [ U0626,	U062B		,0x13a4			] }; // ئ		// ث
+    key <AD04> { [ U0642,	U064e		,VoidSymbol		] }; // ق		// َ  
+    key <AD05> { [ U0641,	U005e		,VoidSymbol		] }; // ف		// ^ 
+    key <AD06> { [ U063a,	U0B0		,VoidSymbol		] }; // غ		// °
+    key <AD07> { [ U0639,	U064f		,VoidSymbol		] }; // ع		// ُ
+    key <AD08> { [ U0647,	U0f7		,0x100202d		] }; // ه		// ÷
+    key <AD09> { [ U062e,	U05d		,0x100202e		] }; // خ		// ]
+    key <AD10> { [ U062d,	U05b		,0x100202c		] }; // ح		// [
+    key <AD11> { [ U062c,	U07d		,0x100202a		] }; // ج		// }
+    key <AD12> { [ U0686,	U07b		,0x100202b		] }; // چ		// {
 
-    key <AC01> {	[	  U0634,	U020 		,VoidSymbol					]	}; // ش U0634			//  
-    key <AC02> {	[	  U0633,	U020		,VoidSymbol					]	}; // س U0633			//  
-    key <AC03> {	[	  U064A,	U0649		,Arabic_alefmaksura	]	}; // ي U064A			// ى
-    key <AC04> {	[	  U0628,	U020		,VoidSymbol					]	}; // ب U0628			//  
-    key <AC05> {	[	  U0644,	U020		,VoidSymbol					]	}; // ل U0644			//  
-    key <AC06> {	[	  U0627,	U0622		,0x1000671					]	}; // ا U0627			// آ
-    key <AC07> {	[	  U062a,	U06CC		,VoidSymbol					]	}; // ت U062a			// ی
-    key <AC08> {	[	  U0646,	U02C		,0x100fd3e					]	}; // ن U0646			// ,
-    key <AC09> {	[	  U0645,	U05C		,0x100fd3f					]	}; // م U0645			// \
-    key <AC10> {	[	  U06a9,	U03a		,semicolon					]	}; // ک U06a9			// :
-    key <AC11> {	[	  U06af,	U061b		,quotedbl						]	}; // گ U06af			// ؛
+    key <AC01> { [ U0634,	U06cb 		,VoidSymbol		] }; // ش		// ۋ 
+    key <AC02> { [ U0633,	U064b		,VoidSymbol		] }; // س		// ً 
+    key <AC03> { [ U064A,	U06cc		,Arabic_alefmaksura	] }; // ي		// ی
+    key <AC04> { [ U0628,	U0650		,VoidSymbol		] }; // ب		// ِ 
+    key <AC05> { [ U0644,	U027		,VoidSymbol		] }; // ل		// '
+    key <AC06> { [ U0627,	U0622		,0x1000671		] }; // ا		// آ
+    key <AC07> { [ U062a,	U0649		,VoidSymbol		] }; // ت		//  ى
+    key <AC08> { [ U0646,	U02C		,0x100fd3e		] }; // ن		// ,
+    key <AC09> { [ U0645,	U05C		,0x100fd3f		] }; // م		// \
+    key <AC10> { [ U06a9,	U03a		,semicolon		] }; // ک		// :
+    key <AC11> { [ U06af,	U061b		,quotedbl		] }; // گ		// ؛
 
-    key <AB01> {	[ 	U0624,	U0638		,VoidSymbol					] }; // ؤ U0624			// ظ
-    key <AB02> {	[ 	U06CA,	U0637		,VoidSymbol					] }; // ۊ U06CA			// ط
-    key <AB03> {	[ 	U0632,	U0698		,VoidSymbol					] }; // ز U0632			// ژ
-    key <AB04> {	[		U0631,	U0670		,0x1000656					] }; // ر U0631			// ٰ  
-    key <AB05> {	[	  U0630,	U027		,0x100200d					]	}; // ذ U0630			// '
-    key <AB06> {	[	  U062f,	U0654		,Arabic_hamza_below	]	}; // د U062f			// ٔ
-    key <AB07> {	[	  U067e,	U022		,ellipsis						]	}; // پ U067e			// "
-    key <AB08> {	[  	U0648,	U03E		,comma							]	}; // و U0648			// >
-    key <AB09> {	[	  U02e,	  U03C		,apostrophe					]	}; // . U02e			// <
-    key <AB10> {	[	  slash,	U061f		,question						]	}; // / U02f			// ؟
+    key <AB01> { [ U0624,	U0638		,VoidSymbol		] }; // ؤ		// ظ
+    key <AB02> { [ U06CA,	U0637		,VoidSymbol		] }; // ۊ		// ط
+    key <AB03> { [ U0632,	U0698		,VoidSymbol		] }; // ز		// ژ
+    key <AB04> { [ U0631,	U0022		,ellipsis		] }; // ر		// "
+    key <AB05> { [ U0630,	U0654		,Arabic_hamza_below	] }; // ذ		// ٔ	
+    key <AB06> { [ U062f,	U00bb		,VoidSymbol		] }; // د		// »
+    key <AB07> { [ U067e,	U00ab		,VoidSymbol		] }; // پ		// «
+    key <AB08> { [ U0648,	U03E		,comma			] }; // و		// >
+    key <AB09> { [ U02e,	U03C		,apostrophe		] }; // .		// <
+    key <AB10> { [ slash,	U061f		,question		] }; // /		// ؟
 
     include "nbsp(zwnj2nb3)"
     include "level3(ralt_switch)"

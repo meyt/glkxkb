@@ -1,19 +1,19 @@
 # glkxkb
-"Gilaki" Language keyboard layout for Linux / Xserver
+Gilaki Language keyboard layout for Linux / Xserver
 
-# کيبورد گيلکي براي لينوکس
-آرايش کيبورد لينوکس بهينه سازي شده براي زبان گيلکي بر اساس آخرين بروزرساني از صفحه ويکي‌پدیا گیلکی
+# کیبورد گیلکی برای لینوکس
+آرایش کیبورد لینوکس بهینه‌سازی شده برای زبان گیلکی بر اساس آخرین بروزرسانی از صفحه ویکی‌پدیا گیلکی
 https://glk.wikipedia.org/wiki/کاربر:Varg/پؤرؤژهٰ‌ن/گیلکی_کیبؤرد
 
 ![Gilaki language keyboard layout for linux screenshot](https://raw.githubusercontent.com/meyt/glkxkb/master/glkxkb-screenshot.png)
 
 
-## راهنماي نصب
-براي نصب نياز به دسترسي ريشه می‌باpشد که به این صورت باید استفاده شود :
+## راهنمای نصب
+برای نصب نیاز به دسترسی ریشه به صورت زیر است:
 
 	$ sudo ./install.sh
 
-پس از نصب براي اعمال تغييرات نياز به ريستارت ميباشد.
+پس از نصب برای اعمال تغییرات کامپیوتر خود را ریستارت کنید.
 
 
 
